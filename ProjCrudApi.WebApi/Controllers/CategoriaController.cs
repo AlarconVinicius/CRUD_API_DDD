@@ -20,7 +20,7 @@ namespace ProjCrudApi.WebApi.Controllers
             _iServicoCategoria = iServicoCategoria;
             _mapper = mapper;
         }
-
+         
         [HttpPost]
         public async Task AddCategoria(CategoriaAddInput objeto)
         {
